@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import ProductosService from "../services/productosService";
+import ProductosService from "../services/ProductosService.js";
 import BackBtn from "../components/BackBtn";
 
 const EditarProducto = () => {

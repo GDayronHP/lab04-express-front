@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import ProductosService from "../services/productosService";
+import ProductosService from "../services/ProductosService.js";
 import BackBtn from "../components/BackBtn";
 
 const CrearProducto = () => {
